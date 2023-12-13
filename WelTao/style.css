@@ -1,0 +1,173 @@
+*{
+    /* Estos estilos eliminan los márgenes y rellenos predeterminados de todos los elementos */
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    /* Estilos generales para el cuerpo de la página */
+    background-color: #050819;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #f1dede;
+
+}
+
+.menu{
+    /* Estilos para la barra de navegación */
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #050819;
+    /*Esto es para que se pueda manter la barra de nav arriba */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+   
+
+}
+
+.navlink{
+    /* Estilos para los enlaces de navegación */
+    text-decoration: none;
+    color: #f1dede;
+    
+}
+
+.menu2{
+  /* Estilos para una lista en la barra de navegación */
+    list-style-type: none;
+
+}
+
+.intro{
+
+
+    text-align: center;
+
+}
+
+.seccion{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #050819;
+    padding: 75px;
+    
+}
+
+.titulo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+
+}
+
+.cont{
+
+    height: 300px;
+    width: 500px;
+
+}
+
+.curso{
+
+    height: auto;
+    width: 990px;
+
+}
+
+.parra{
+
+    font-size: larger;
+
+}
+
+.redes{
+
+    text-align: end;
+    height: 27px;
+    width: 25;
+
+}
+
+.org{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.carousel-item {
+    z-index: 9;
+  }
+
+
+/*Footer*/
+.pie-pagina {
+    width: 100%;
+    background-color: #050830;
+    
+  }
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+  }
+  .pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pie-pagina .grupo-1 .box figure img {
+    width: 280px;
+  }
+  .pie-pagina .grupo-1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+    margin-top: -5px;
+  }
+  .pie-pagina .grupo-1 .box p {
+      margin-top: -20px;
+    color: #efefef;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #050830;
+    text-align: center;
+    transition: all 300ms ease;
+  }
+  .pie-pagina .grupo-1 .red-social a:hover {
+    color: aqua;
+  }
+  .pie-pagina .grupo-2 {
+    background-color: #050819;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+  }
+  .pie-pagina .grupo-2 small {
+    font-size: 15px;
+  }
